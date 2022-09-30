@@ -1,0 +1,112 @@
+<!--
+    ENTIDAD: CENTRO DE BIOTECNOLOGICO AGROPECUARIO 
+    FICHA:2558346
+    PROGRAMA:ANALASIS  Y DESARROLLO DE SOFTWARE
+    AUTOR: DIEGO DIAZ RODRIGUEZ
+    OBJETIVO: IMPLEMENTAR UN NAV DESPLEGABLE CON EL ICONO DE LA HAMBURGUESA
+    FECHA DE CREACION:19 DE SEPTIEMBRE DEL 2022
+    VERSION:1.1.0
+    W3C:OK
+ -->
+
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=0, initial-scale=1.0">
+        <link rel="stylesheet" href="css/main.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <title>Navbar</title>
+    </head>
+
+    <body>
+            <!-- nav -->
+            <nav class="nav" id="nav">
+                <div class="nav__menu conatiner" id="nav-menu">
+                    <div class="nav__shape"></div>
+                    <div class="nav__close" id="nav__close">
+                        <span class="material-icons">
+                            close
+                        </span>
+                    </div>
+                    <div class="nav__data">
+                        <div class="nav__mask">
+                            <img src="img/diego.jpg" alt="" class="nav__img">
+                        </div>
+                        <span class="nav__saludo">Hola, Yo soy</span>
+                        <h1 class="nav__name">Diego <br> Alejandro</h1>
+                    </div>
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#inicio" class="nav__link">
+                                <span class="material-icons">home</span>
+                                Inicio
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#acerca" class="nav__link">
+                                <span class="material-icons">account_circle</span>
+                                Acerca
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#portafolio" class="nav__link">
+                                <span class="material-icons">work</span>
+                                Hoja de vida
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#habilidades" class="nav__link">
+                                <span class="material-icons">bookmarks</span>
+                                Habilidades
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contacto" class="nav__link">
+                                <span class="material-icons">chat</span>
+                                Contacto
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- main -->
+            <main class="main" id="main">
+                <!-- encabezado -->
+                <header class="header" id="header">
+                    <nav class="header__nav container">
+                        <a href="#" class="header__logo">Oceano</a>
+
+                        <div class="header__toggle" id="header-toggle">
+                            <span class="material-icons">view_headline</span>
+                        </div>
+                    </nav>
+                </header>
+                <!-- inicio -->
+                <section class="section section__height container" id="inicio">
+                    <h1>Inicio</h1>
+                </section>
+                <!-- acerca -->
+                <section class="section section__height container" id="acerca">
+                    <h1>Acerca</h1>
+                </section>
+                <!-- portafolio -->
+                <section class="section section__height container" id="portafolio">
+                    <h1>Portafolio</h1>
+                </section>
+                <!-- habilidades -->
+                <section class="section section__height container" id="habilidades">
+                    <h1>Habilidades</h1>
+                </section>
+                <!-- contacto -->
+                <section class="section section__height container" id="contacto">
+                    <h1>Contacto</h1>
+                </section>
+            </main>
+            <!-- js -->
+            <script src="js/main.js"></script>
+    </body>
+
+</html>
